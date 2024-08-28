@@ -1,0 +1,6 @@
+Język opiera się na języku Latte z drobnymi rozszerzeniami.
+
+Rozwiązanie opiera się głównie na trzech monadach: Except, Reader i State. Za pomocą monady Except obsługujemy błędy.
+Monada Reader pozwala nam na przetrzymywanie w niej mapy nazw zmiennych i funkcji na ich lokacje. Monady State używamy by trzymać mapę lokacji na ich wartości.
+
+Dodano cztery testy na opisane w tabeli funkcjonalności.
